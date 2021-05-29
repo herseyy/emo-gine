@@ -32,7 +32,7 @@ body {
 }
 .slideshow .slide {
   display: none;
-  overflow: hidden;
+  overflow: hidden; 
   position: absolute;
   top: 0;
   left: 0;
