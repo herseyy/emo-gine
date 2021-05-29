@@ -49,6 +49,7 @@ body {
 .slideshow .slide .caption {
   padding: 0 100px;
 }
+
 .slideshow .slide .image-container {
   position: absolute;
   top: 0;
@@ -96,6 +97,7 @@ h1 {
   top: -1px;
   right: 30px;
 }
+
 a {
   font-size: 30px;
   color: white;
@@ -103,6 +105,7 @@ a {
   top: 7px;
   left: 30px;
 }
+
 .slideshow .slide .title {
   margin-top: 100px;
   margin-left: -25%;
@@ -110,7 +113,7 @@ a {
   font: 300 50px/1.2 "Oswald", sans-serif;
   letter-spacing: 0.35em;
   text-transform: uppercase;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   /*background-color: #686868;*/
 }
 
@@ -121,29 +124,28 @@ a {
   line-height: 1.4;
   /*border: 1px solid yellow;*/
 }
+
 .input[type=text] {
   margin-bottom: 3px;
-  width: 25vw;
+  width: 68%;
   padding-top: 12px;
   padding-bottom: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
 .submit[type=button] {
-  width: 15vw;
+  width: 28%;
   background-color: #32CD32;
   color: black;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: center;
+  padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 13px;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
 }
 
 .submit:hover {
@@ -164,17 +166,18 @@ a {
   margin: 23px;
   /*border: 1px solid #f1f1f1;*/
 }
+
 p {
-  margin-left: -20%
   max-width: 400px;
   height: 35vh;
   font-size: 30px; 
   color: white;
-  border: 1px solid pink;
+  /*border: 1px solid pink;*/
 }
 
 .btn-group .hint {
   /*border: 2px solid rgb(216, 2, 134);*/
+
   border-radius: 1px;
   padding: 10px 28px;
   display: inline-block;
@@ -198,6 +201,7 @@ p {
   font-size: 15px;
   right: 15px;
 }
+
 a {
   font-size: 15px;
   left: 15px;
@@ -209,7 +213,10 @@ a {
 }
 
 
-  @@ -230,29 +258,29 @@ a {
+.slideshow .slide .text {
+  margin: 15px auto auto;
+  /*border: 1px solid yellow;*/
+}
 
 .input[type=text] {
   margin-bottom: 2px;
@@ -240,6 +247,7 @@ p {
 }
 
 }
+
 @media screen and (max-width: 400px) {
 
 h1 {
@@ -266,11 +274,13 @@ a {
 
 .input[type=text] {
   margin-bottom: 2px;
+  width: 68%;
   padding-top: 8px;
   padding-bottom: 8px;
 }
 
 .submit[type=button] {
+  width: 28%;
   padding: 8px 16px;
   font-size: 9px;
   /*border: 1px solid blue;*/
@@ -335,8 +345,6 @@ p {
 .slideshow .pagination .item:hover::before, .slideshow .pagination .item.is-active::before {
   background-color: #fff;
 }*/
-
-
 .slideshow .arrows .arrow {
   margin: -33px 0 0;
   padding: 20px;
