@@ -69,7 +69,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.4);
 }
 .slideshow .slide .image {
   /*background-image: url('https://i2.wp.com/novocom.top/image/bGFvbci5jbmFpci5jb20=/wp-content/uploads/2016/12/light-sky-blue-solid-color-background.jpg');*/
@@ -127,7 +127,7 @@ a {
 
 .input[type=text] {
   margin-bottom: 3px;
-  width: 23vw;
+  width: 68%;
   padding-top: 12px;
   padding-bottom: 12px;
   border: 1px solid #ccc;
@@ -137,7 +137,7 @@ a {
 }
 
 .submit[type=button] {
-  max-width: 28%;
+  width: 28%;
   background-color: #32CD32;
   color: black;
   padding: 12px 20px;
@@ -168,7 +168,7 @@ a {
 }
 
 p {
-  max-width: 150%;
+  max-width: 400px;
   height: 35vh;
   font-size: 30px; 
   color: white;
@@ -176,8 +176,6 @@ p {
 }
 
 .btn-group .hint {
-  /*border: 2px solid rgb(216, 2, 134);*/
-
   border-radius: 1px;
   padding: 10px 28px;
   display: inline-block;
@@ -189,11 +187,13 @@ p {
   -webkit-transition: ease-out 0.4s;
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.4s;
+  border: 1px solid orange;
 }
 .btn-group .hint:hover {
   box-shadow: inset 0 100px 0 0   #505050;
   color: white;
 }
+
 
 .slideshow .arrows .arrow {
   margin: -33px 0 0;
@@ -229,22 +229,25 @@ p {
   h1 {
   font-size: 15px;
   right: 15px;
+  border: 1px solid red;
 }
 
 a {
   font-size: 15px;
   left: 15px;
+  border: 1px solid red;
 }
 
 .slideshow .slide .title {
   margin-top: 50px;
-  font: 300 25px/1.2 "Oswald", sans-serif;
+  font: 300 15px/1.2 "Oswald", sans-serif;
+  border: 1px solid white;
 }
 
 
 .slideshow .slide .text {
   margin: 15px auto auto;
-  /*border: 1px solid yellow;*/
+  border: 1px solid yellow;
 }
 
 .input[type=text] {
@@ -252,124 +255,27 @@ a {
   padding-top: 8px;
   padding-bottom: 8px;
   border-radius: 3px;
+  border: 1px solid blue;
 }
 
 .submit[type=button] {
-  padding: 8px 16px 8px 16px;
-  font-size: 10px;
-  /*border: 1px solid blue;*/
+  padding: 8px 16px;
+  font-size: 9px;
+  border: 1px solid blue;
 }
 
 p {
-  /*max-width: 120px;*/
+  max-width: 120px;
   height: 35vh;
   font-size: 10px; 
-  /*border: 1px solid pink;*/
+  border: 1px solid pink;
 }
 
 .btn-group .hint {
-  /*border: 2px solid rgb(216, 2, 134);*/
-
   padding: 8px 16px;
   font-size: 8px;
   letter-spacing: 1px;
+  border: 1px solid orange;
 }
 
 }
-
-/*@media screen and (max-width: 400px) {
-
-h1 {
-  font-size: 18px;
-  right: 10px;
-}
-
-a {
-  font-size: 18px;
-  left: 10px;
-}
-
-.slideshow .slide .title {
-  font: 300 20px/1.2 "Oswald", sans-serif;
-
-}
-
-
-.slideshow .slide .text {
-  margin: 10px auto auto;
-}
-
-
-.input[type=text] {
-  margin-bottom: 2px;
-  width: 68%;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-.submit[type=button] {
-  width: 28%;
-  padding: 8px 16px;
-  font-size: 9px;
-
-}
-
-
-p {
-  max-width: 200px;
-  height: 35vh;
-  font-size: 10px; 
-
-}
-
-.btn-group .hint {
-  padding: 9px 20px;
-  display: inline-block;
-  font-size: 7px;
-}
-}*/
-
-
-/*.slideshow .pagination {
-  position: absolute;
-  bottom: 35px;
-  left: 0;
-  width: 100%;
-  height: 12px;
-  cursor: default;
-  z-index: 2;
-  text-align: center;
-}
-.slideshow .pagination .item {
-  display: inline-block;
-  padding: 15px 5px;
-  position: relative;
-  width: 46px;
-  height: 32px;
-  cursor: pointer;
-  text-indent: -999em;
-  z-index: 1;
-}
-.slideshow .pagination .item + .page {
-  margin-left: -2px;
-}
-.slideshow .pagination .item::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 15px;
-  left: 5px;
-  width: 36px;
-  height: 2px;
-  background: rgba(255, 255, 255, 0.5);
-  transition: background 0.2s ease;
-}
-.slideshow .pagination .item::after {
-  width: 0;
-  background: #fff;
-  z-index: 2;
-  transition: width 0.2s ease;
-}
-.slideshow .pagination .item:hover::before, .slideshow .pagination .item.is-active::before {
-  background-color: #fff;
-}*/
