@@ -1,5 +1,4 @@
 
-
 var slideshowDuration = 4000;
 var slideshow=$('.main-content .slideshow');
 
@@ -815,13 +814,13 @@ function balbal20() {
 }
 
 function b20hint1() {
-  document.getElementById("b20").innerHTML = "Pang-uri";
+  document.getElementById("b20").innerHTML = "Katunog ng ikalawang pantig sa tawag ng mga chinese sa larong table tennis";
 }
 function b20hint2() {
   document.getElementById("b20").innerHTML = "Nauulit na salita at nagkakaroon ng labindalawa na letra";
 }
 function b20hint3() {
-  document.getElementById("b20").innerHTML = "Maaaring mainhalintulad sa antigong bagay ,datihan at unang panahon";
+  document.getElementById("b20").innerHTML = "Maaaring mainhalintulad sa antigong bagay, datihan at unang panahon";
 }
 
 
@@ -1421,9 +1420,3 @@ function b40hint2() {
 function b40hint3() {
   document.getElementById("b40").innerHTML = "Katunog ng salitang hugas sa ingles";
 }
-
-
-
-
-
-
